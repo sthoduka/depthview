@@ -18,6 +18,8 @@ https://github.com/teknotus/depthview/tree/kernelpatchfmt
 Prepatched Linux kernel available from [Ubuntu 14.10 PPA](https://launchpad.net/~teknotus/+archive/ubuntu/rs-kernel-ppa)
 
     sudo apt-add-repository ppa:teknotus/rs-kernel-ppa
+    sudo apt-get update
+    sudo apt-get install linux-image-3.16.0-37-generic=3.16.0-37.49+realsense linux-headers-3.16.0-37-generic=3.16.0-37.49+realsense linux-image-extra-3.16.0-37-generic=3.16.0-37.49+realsense
 
 There is also a userspace driver that works with the camera that I hope to add support for soon. 
 
